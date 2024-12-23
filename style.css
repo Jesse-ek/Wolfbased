@@ -1,0 +1,590 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-weight: bold;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-family: "Georama", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    height: 100vh;
+    overflow: auto;
+   
+}
+main{
+    width: auto;
+}
+
+#Home a{
+    text-decoration: none;
+}
+
+.hero-sec{
+    padding: 30px 30px;
+    background-color: #00abff;
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(21, 116, 233);
+    box-shadow: 0px 2.784px 5.569px 0px rgba(171, 190, 209, 0.40);
+    padding: 10px 10px;
+    padding-top: 30px;
+  }
+
+
+  .header a{
+    float: left;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+  }
+
+  .header a.logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+.Logo{
+
+    width: 100px;
+    height: auto;
+}
+  
+  .header-right {
+    float: right;
+    padding-left: 100px;
+
+  }
+
+.header-right a:hover{
+    background-color: yellow;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: scale(1.1);
+}
+
+button{
+    color: white;
+    font-family: "Georama", serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 15px;
+    border:  solid transparent;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+button:hover{
+    background-color: yellow;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: scale(1.1);
+}
+
+h3 {
+    text-align: center;
+    font-family: "Rubik Gemstones", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8vw;
+    margin: 0px 0px;
+    color: white;
+  }
+
+
+.hdr-img1 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 10% 10%; 
+
+}
+
+.hdr-img2 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 10%;
+    
+
+}
+.hdr-img1 img{
+    border-radius: 50%;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    background-color: #0292da;
+}
+.hdr-img2 img{
+    border-radius: 50%;
+    padding: 5px;   
+    width: 150px;
+    height: 150px;
+    background-color: #0292da;
+    
+}
+
+.hero-sec .sp {
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    font-family: "Georama", serif;
+}
+
+.hero-sec .buttons{
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+    padding-top: 2vw;
+    align-items: center;
+}
+
+.hero-sec .buttons a{
+    border-radius: 15px;
+    font-size: 25px;
+    padding: .7vw 2vw;
+    background: rgba(255, 255, 255, 0.1); 
+    text-decoration: none;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 400;
+    font-family: "Georama", serif;
+    cursor: pointer;
+    transition: all .3s;
+
+}
+
+.hero-sec .buttons a img {
+    width: 2vw;
+    align-items: center;
+    overflow: clip
+}
+
+.hero-sec .buttons a:hover {
+    background-color: yellow;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: scale(1.1);
+}
+
+.test {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.test2 {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.body {
+    background-color: #00abff;
+    width: auto;
+    padding-top: 150px;
+    
+    
+
+}
+
+.about h3{
+    text-align: center;
+
+}
+
+.body h3 {
+    font-family: "Rubik Gemstones", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vw;
+    margin: 0px 0px;
+    color: rgb(255, 233, 111);
+    letter-spacing: 0.02em;
+}
+
+.body p {
+    font-size: larger;
+    font-weight: bold;
+    font-family: "Georama", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.para p{
+    font-family: "Georama", serif;
+    letter-spacing: 0.02em;
+    font-weight: 300;
+}
+
+.para {
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+    font-family: "Georama", serif;
+    font-weight: 300;
+
+}
+
+.para-why{
+    font-family: "Georama", serif;
+
+}
+
+.about-img{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.why-based {
+    padding: 15vw 7vw 15vw 12vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(23, 23, 23, 1);
+    -webkit-clip-path: polygon(0 10%, 100% 0, 100% 88%, 0% 100%);
+    clip-path: polygon(0 10%, 100% 0, 100% 88%, 0% 100%);
+    background: radial-gradient(90.29% 90.29% at 50% 50%, #11A6EF 0%, #0288C9 100%);
+    
+}
+
+.why-based p{
+    font-size: 25px;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+}
+.why-based ul li{
+    list-style: square;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.why-based img {
+    height: auto;
+}
+
+.para-p {
+    text-align: center;
+    font-size: 16px;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.why-based img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+
+.how-to-buy{
+    padding: 5vw 0vw 5vw 5vw;
+    
+}
+
+.how-to-buy ol li{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.how-to-buy h3{
+    text-align: center;
+}
+
+.para-buy{
+    display: flex;
+    align-items: center;
+}
+
+.para-li p{
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.para-li{
+    text-align: center;
+    list-style: none;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+
+.para-li ol li{
+    margin-bottom: 2vw;
+}
+
+.tokenomics{
+    padding: 10vw 10vw;
+    background: radial-gradient(90.29% 90.29% at 50% 50%, #11A6EF 0%, #0288C9 100%);
+    -webkit-clip-path: polygon(0 22%, 100% 0, 100% 88%, 0% 100%);
+    clip-path: polygon(0 12%, 100% 0, 100% 88%, 0% 100%);
+}
+
+.tokenomics h3{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.tokenomics .token-text{
+    text-align: center;
+    letter-spacing: 0.02em;
+    padding-left: 150px;
+    color: #FFFF14
+}
+
+
+
+.tk1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 1.5vw;
+    width:30px;
+    display: inline-block;
+    margin: 5px;
+    padding: 1.5vw 100px;
+
+}
+
+.tk1 h2{
+    font-weight: 900;
+    color: #FFFFFF;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.tk1 p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+.roadmap {
+    text-align: center;
+    padding-top: 10px;
+    font-family: "Georama", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 90%;
+    
+}
+.phases .p {
+    text-align: center;
+    font-size: 2vw;
+    line-height: 3vw;
+}
+
+.phase-flex {
+    padding: 1vw 1vw;
+    display: flex;
+    justify-content: space-around;
+    font-size: small;
+}
+
+.image img {
+    width: 90%;
+    position: relative;
+
+}
+
+.roadmap h3 {
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+
+}
+
+.roadmap .p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 0.02em;
+    font-family: "Georama", serif;
+}
+
+.phases {
+    font-weight: 100;
+    font-size: 11px;
+    font-weight: 100;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 32px;
+    padding: 10px 27px;
+    margin: 20px 120px;
+
+}
+
+.binance{
+    margin-top: 100px;
+}
+
+.binance h3{
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.binance img {
+    width: 15%;
+    display: block;
+    margin: 50px auto;
+    padding: 10px 10px;
+    border-radius: 15px;
+    transition: transform 0.3s;
+    background-color: black;   
+    
+}
+
+.binance img:hover{
+    background-color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: scale(1.1);
+}
+
+.available-on {
+    clip-path: polygon(0 20%, 100% 0%, 100% 78%, 0% 100%);
+    background: radial-gradient(90.29% 90.29% at 50% 50%, #11A6EF 0%, #0288C9 100%);
+    padding: 200px;
+    padding-top: 20vw;
+}
+
+.available-on h3{
+    color: #fff;
+    text-shadow: 1px -15px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.available-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+    margin-top: 3vw;
+}
+
+.available-content img {
+    width: 30%;
+    
+}
+
+.contacts{
+    padding-top: 10px;
+    padding-bottom: 10vw
+}
+
+.contacts h3 {
+    color: #FFFFFF;
+    margin-bottom: 5vw;
+    font-size: 6vw;
+}
+
+.contacts .links {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.contacts a {
+    width: 5%;
+    padding: 1%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    transition: 1s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contacts a:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: scale(1.1);
+}
+
+.contacts a img {
+    width: 100%;
+}
+
+footer a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: "Georama", serif;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    
+}
+.navlinks a{
+    float: left;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    margin: 10px;
+  }
+
+.navlinks a:hover{
+    background-color: yellow;
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: scale(1.1);
+}
+
+.push{
+    padding-left: 60px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+footer {
+    background-color: #00abff;
+    padding: 1.5vw 3vw 3vw 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
