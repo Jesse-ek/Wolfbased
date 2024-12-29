@@ -32,9 +32,9 @@
     align-items: center;
 }
 
-body{
+/* body{
     overflow-x: hidden;
-}
+} */
 
 .hdr-img1 img{
     padding: 1px;
@@ -129,7 +129,7 @@ h3{
 }
 
 .how-to-buy{
-    padding: 40px;
+    padding: 30px;
 }
 
 .how-to-buy h3{
@@ -140,8 +140,6 @@ h3{
 .roadmap{
     padding: 20px;
 }
-
-
 
 .how-to-buy{
     display: flex;
@@ -168,7 +166,7 @@ h3{
     text-align: center;
     font-style: normal;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 12px;
     color: #FFFFFF;
     letter-spacing: 0.04em;
 }
